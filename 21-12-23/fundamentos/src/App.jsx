@@ -1,23 +1,15 @@
 import './App.css';
-import FirstComponent from './components/FirstComponent';
-import TemplateExpressions from './components/TemplateExpressions';
-import Events from './components/Events';
-import Challanger from './components/Challanger';
-import Hook from './components/Hook';
-import ListRender from './components/ListRender';
-import ShowUserName from './components/ShowUserName';
+
+// imports
+import Header from './components/Header';
+import Titulo from './components/Titulo';
 
 function App() {
   return (
     <div className="App">
       {/*Comentário*/}
-      <FirstComponent/>
-      <TemplateExpressions/>
-      <Events/>
-      <Challanger/>
-      <Hook/>
-      <ListRender/>
-      <ShowUserName  name="Guilherme"/>
+      <Header>Header da Página</Header>
+      <Titulo/>
     </div>
   );
 }
